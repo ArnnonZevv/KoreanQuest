@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#00FFFF">
+
+    <TextView
+        android:id="@+id/tv_settings_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_general"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="General Settings"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/holo_blue_light"/>
+
+        <Button
+            android:id="@+id/btn_audio"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Audio Settings"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/holo_blue_light"/>
+
+        <Button
+            android:id="@+id/btn_video"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Video Settings"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/holo_blue_light"/>
+
+        <Button
+            android:id="@+id/btn_developers"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Developers"
+            android:background="@android:color/holo_blue_dark"/>
+    </LinearLayout>
+
+</LinearLayout>
